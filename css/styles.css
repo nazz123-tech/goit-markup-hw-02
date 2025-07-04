@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, sans-serif;
+    color: #2E2F42;
+    font-weight: 500;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 72px;
+    align-content: center;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    
+}
+
+.navigasjon {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+address {
+    display: flex;
+    gap: 20px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color:#434455;
+    
+}
+ul{
+    list-style-type: none;
+}
+.navigasjon a{
+    color:#2E2F42;
+    text-decoration: none ;
+}
+.navigasjon a:hover,.navigasjon a:focus{
+    color: #404BBF;
+}
+.btn{
+    display: flex;
+    width: 169px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+.btn:hover{
+    background-color: #404BBF;
+    cursor: pointer;
+
+}
+.logo{
+    font-family: "Raleway";
+    font-size: 18px ;
+    font-weight: 700;
+    text-decoration: none;
+    color:inherit;
+    text-transform: uppercase;
+    letter-spacing: 0.7;
+}
+.withbtn{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2F42;
+    color:#FFFFFF;
+    flex-direction:column;
+    text-align: center;
+}
+.title{
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02;
+    width: 500px;
+    height: 126px;
+    line-height: 60px;
+}
+header,
+main,
+footer {
+    max-width: 1440px;
+    margin: 0  auto;
+}
+.web{
+    color:#4D5AE5;
+}
+h2{
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 1px;
+}

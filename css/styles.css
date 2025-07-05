@@ -19,7 +19,7 @@ nav {
     gap: 40px;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.02em;
     
 }
 
@@ -61,7 +61,7 @@ ul{
     border: 0;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.02em;
 }
 .btn:hover{
     background-color: #404BBF;
@@ -72,10 +72,11 @@ ul{
     font-family: "Raleway";
     font-size: 18px ;
     font-weight: 700;
+    line-height: 21px;
     text-decoration: none;
     color:inherit;
     text-transform: uppercase;
-    letter-spacing: 0.7;
+    letter-spacing: 0.03em;
 }
 .withbtn{
     display: flex;
@@ -90,7 +91,7 @@ ul{
 .title{
     font-size: 56px;
     font-weight: 700;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     width: 500px;
     height: 126px;
     line-height: 60px;
@@ -110,5 +111,114 @@ h2{
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 0.02em;
+}
+.features h3{
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    font-weight: 500 ;
+}
+.features p{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    font-weight: 400;
+}
+.featureslist{
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    margin-right: 156px;
+    
+}
+.featureslist li{
+    margin: 5px;
+
+}
+.team{
+    padding:0;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.teamlist{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.teamlist img{
+    height: 260px;
+}
+.teamlist h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.teamlist p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color:#434455
+}
+.portfolio{
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-bottom: 100px;
+}
+.portfolio li{
+    margin: 20px;
+}
+.portfolio img{
+    width: 360px;
+    height: 300px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio h3{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    
+
+}
+.portfolio p{
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+footer{
+    height: 312px;
+    padding-left: 156px;
+    text-align: left;
+    background-color: #2E2F42;
+    padding-top: 100px;
+}
+.statement{
+    color:#f4f4fd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    height: 72px;
+    width: 264px;
+}
+footer .logo{
+    color:#f4f4fd;
 }

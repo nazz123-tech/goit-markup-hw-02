@@ -5,22 +5,29 @@ body {
     background-color: #FFFFFF;
 }
 
-nav {
+.site {
     font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    color:#2e2f42;
+}
+.site:hover, .site:focus{
+    color:#404bbf;
 }
 address{
     font-style: normal;
 }
 .mail{
     font-size: 16px;
+    color: #434455;
     font-weight: 400;
-    color:#434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
     
+}
+.mail:hover, .mail:focus{
+    color: #404BBF;
 }
 .tel{
     font-size: 16px;
@@ -28,6 +35,9 @@ address{
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+.tel:hover, .tel:focus{
+    color: #404BBF;
 }
 
 
@@ -38,9 +48,6 @@ ul{
     color:#2E2F42;
     text-decoration: none ;
 }
-.navigation a:hover,.navigasjon a:focus{
-    color: #404BBF;
-}
 .btn{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -49,7 +56,7 @@ ul{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer
+    cursor: pointer;
 }
 .btn:hover, .btn:focus{
     background-color: #404BBF;
@@ -99,7 +106,7 @@ ul{
     letter-spacing: 0.02em;
     line-height: 24px;
     font-weight: 400;
-    color:#434455
+    color:#434455;
 }
 
 .team{
@@ -141,7 +148,6 @@ ul{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    width: 264px;
 }
 .foot .studio{
     color:#f4f4fd;

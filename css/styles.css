@@ -4,9 +4,6 @@ body {
     font-weight: 500;
     background-color: #FFFFFF;
 }
-header {
-    border-bottom: 1px solid #E7E9FC;
-}
 
 nav {
     font-size: 16px;
@@ -14,8 +11,10 @@ nav {
     letter-spacing: 0.02em;
     
 }
-.mail{
+address{
     font-style: normal;
+}
+.mail{
     font-size: 16px;
     font-weight: 400;
     color:#434455;
@@ -24,7 +23,6 @@ nav {
     
 }
 .tel{
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     color: #434455;
@@ -57,7 +55,7 @@ ul{
     background-color: #404BBF;
 }
 .logo{
-    font-family:"Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px ;
     font-weight: 700;
     line-height: 1.17;
@@ -83,6 +81,7 @@ ul{
 }
 .titles{
     font-size: 36px;
+    color:#2E2F42;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;

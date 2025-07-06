@@ -35,10 +35,6 @@ address{
 ul{
     list-style-type: none;
 }
-.navigation a{
-    color:#2E2F42;
-    text-decoration: none ;
-}
 .btn{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -144,5 +140,4 @@ ul{
 }
 .foot .studio{
     color:#f4f4fd;
-    text-align: center;
 }

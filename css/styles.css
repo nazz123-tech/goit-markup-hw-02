@@ -1,11 +1,11 @@
-body {
+body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-weight: 500;
     background-color: #FFFFFF;
 }
 
-.site {
+.site{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -18,7 +18,7 @@ body {
 address{
     font-style: normal;
 }
-.mail{
+.cnt{
     font-size: 16px;
     color: #434455;
     font-weight: 400;
@@ -26,19 +26,10 @@ address{
     line-height: 1.5;
     
 }
-.mail:hover, .mail:focus{
+.cnt:hover, .cnt:focus{
     color: #404BBF;
 }
-.tel{
-    font-size: 16px;
-    font-weight: 400;
-    color: #434455;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-.tel:hover, .tel:focus{
-    color: #404BBF;
-}
+
 
 
 ul{
@@ -100,6 +91,7 @@ ul{
     letter-spacing: 0.02em;
     line-height: 24px;
     font-weight: 500 ;
+    color:#2E2F42;
 }
 .feat{
     font-size: 16px;
@@ -120,6 +112,7 @@ ul{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color:#2E2F42;
 }
 
 
@@ -128,7 +121,7 @@ ul{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    
+    color: #2E2F42;
 
 }
 .description{

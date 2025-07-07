@@ -4,6 +4,9 @@ body{
     font-weight: 500;
     background-color: #FFFFFF;
 }
+a{
+    text-decoration:  none;
+}
 
 .site{
     font-size: 16px;
